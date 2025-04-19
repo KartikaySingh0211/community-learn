@@ -167,7 +167,9 @@ export default function AuthPage() {
 		<main className="min-h-screen flex flex-col items-center justify-center p-6 bg-gray-50">
 			<div className="w-full max-w-md">
 				<div className="text-center mb-8">
-					<h1 className="text-3xl font-bold text-black">CommunityLearn</h1>
+					<h1 className="text-3xl font-bold text-black mt-16">
+						CommunityLearn
+					</h1>
 					<div className="mt-2 flex items-center justify-center space-x-2">
 						<span className="text-lg text-black">Accessing as</span>
 						<span
