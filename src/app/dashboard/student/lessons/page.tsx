@@ -99,7 +99,7 @@ export default function Lessons() {
 	}
 
 	return (
-		<div className="max-w-4xl mx-auto px-4 py-8">
+		<div className="p-8 bg-gradient-to-br from-indigo-50 to-white h-screen">
 			<div className="flex justify-between items-center mb-6">
 				<h1 className="text-2xl font-bold">Browse Lessons</h1>
 				<Link

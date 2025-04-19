@@ -74,7 +74,7 @@ export default function StudentDashboard() {
 	}
 
 	return (
-		<div className="max-w-4xl mx-auto px-4 py-8 text-black">
+		<div className="p-8 bg-gradient-to-br from-indigo-50 to-white h-screen text-black">
 			<div className="flex justify-between items-center mb-8">
 				<h1 className="text-2xl font-bold text-white">
 					Welcome, {user?.name || "Student"}
@@ -91,12 +91,12 @@ export default function StudentDashboard() {
 						>
 							<span className="font-medium">Browse All Lessons</span>
 						</Link>
-						<Link
+						{/* <Link
 							href="/dashboard/student/bookmarks"
 							className="block bg-white p-4 rounded shadow hover:shadow-md"
 						>
 							<span className="font-medium">My Bookmarks</span>
-						</Link>
+						</Link> */}
 					</div>
 				</div>
 
